@@ -660,8 +660,14 @@ section#contact .form-group textarea {
 section#contact .form-group input.form-control {
   height: auto;
 }
+section#contact .form-group input.form-control::-webkit-input-placeholder {
+  color: #5F5F5F;
+}
 section#contact .form-group textarea.form-control {
   height: 236px;
+}
+section#contact .form-group textarea.form-control::-webkit-input-placeholder {
+  color: #5F5F5F;
 }
 section#contact .form-control:focus {
   border-color: #fed136;
