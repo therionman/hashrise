@@ -13,7 +13,7 @@
   background-position: 0px 0px;
   background-repeat: repeat-x;
   height: 650px;
-  animation-direction: alternate;
+  animation-direction: alternate!important;
   height: 485px;
   background-size: cover;
   background-repeat: no-repeat;
