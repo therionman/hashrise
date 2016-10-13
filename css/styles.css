@@ -1,9 +1,11 @@
+ul {
+  list-style-type: none;
+}
 .vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
 }
-
 #animate-area1,
 #animate-area2,
 #animate-area3,
@@ -686,12 +688,18 @@ section#contact .form-group textarea {
 }
 section#contact .form-group input.form-control {
   height: auto;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding: 15px;
 }
 section#contact .form-group input.form-control::-webkit-input-placeholder {
   color: #5F5F5F;
 }
 section#contact .form-group textarea.form-control {
-  height: 236px;
+  height: 214px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding: 15px;
 }
 section#contact .form-group textarea.form-control::-webkit-input-placeholder {
   color: #5F5F5F;
@@ -756,6 +764,7 @@ footer ul.quicklinks {
 }
 footer ul.quicklinks a {
   color: darkgray;
+  text-decoration: underline;
 }
 footer ul.social-buttons li a{
   color: #fff!important;  
@@ -934,4 +943,8 @@ min-height: 496px;
   width: auto; 
   height: auto;
   z-index: -100;
+}
+.text-error {
+  font-size: 19px;
+  font-weight: bold;
 }
