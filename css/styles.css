@@ -137,12 +137,14 @@ h6 {
   background-color: #222222;
 }
 .btn-primary {
-  color: white;
-  background-color: #FF2323;
-  border-color: #FF2323;
+  border: #2185c5 solid 1px;
+  background-color: transparent;
+  color: #2185C5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -150,8 +152,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #2185C5;
+  border-color: #2185C5;1;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -737,10 +739,11 @@ footer a{
   color: #fff;
 }
 footer span.copyright {
+  margin-right: 10px;
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  color: #fff;
+  color: darkgray;
   display: inline;
   font-size: 13px;
 }
@@ -751,8 +754,14 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+footer ul.quicklinks a {
+  color: darkgray;
+}
 footer ul.social-buttons li a{
-  color: #fff!important;
+  color: #fff!important;  
+}
+footer ul.social-buttons li a:hover{
+  color: #fff;  
 }
 footer h5{
   color:#fff;
@@ -795,6 +804,9 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+}
+ul.border-social-group li a{
+  border: #2185c5 solid 1px;
 }
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
