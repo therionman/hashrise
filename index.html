@@ -12,7 +12,7 @@
   <title>HashRise - Agencia Digital</title>
 
   <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="css/ionicons.css" rel="stylesheet" type="text/css">
@@ -272,7 +272,7 @@
                           <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
                             <a href="https://uy.linkedin.com/in/guillermo85"><i class="ion-social-linkedin-outline"></i></a>
                           </li>
-                          <li data-toggle="tooltip" data-placement="bottom" title="guillermo @ hashrise . com">
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="guillermo@hashrise.com">
                             <a><i class="ion-ios-email-outline"></i></a>
                           </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="Skype">
@@ -292,7 +292,7 @@
                           <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
                             <a href="https://uy.linkedin.com/in/gaston-yohane"><i class="ion-social-linkedin-outline"></i></a>
                           </li>
-                          <li data-toggle="tooltip" data-placement="bottom" title="gaston @ hashrise . com">
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="gaston@hashrise.com">
                             <a><i class="ion-ios-email-outline"></i></a>
                           </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="Skype">
@@ -306,14 +306,14 @@
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                         <h4>Lucas Fagundez</h4>
                         <hr>
-                        <p class="text-muted">CO FOUNDER<br /> Frontend & Security Tester</p>
+                        <p class="text-muted"><br /> Frontend Developer & Security Tester</p>
                         <hr>
                         <ul class="list-inline social-buttons border-social-group">
                           <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
                             <a href="#"><i class="ion-social-linkedin-outline"></i></a>
                           </li>
-                          <li data-placement="bottom" title="lucas @  hashrise . com" data-toggle="tooltip">
-                            <a href="#"><i class="ion-ios-email-outline"></i></a>
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="lucas@hashrise.com">
+                            <a><i class="ion-ios-email-outline"></i></a>
                           </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="Skype">
                             <a href="skype:diego.lucas_1?call"><i class="ion-social-skype-outline" ></i></a>
@@ -707,10 +707,22 @@
 </div>
 
 <!-- jQuery -->
-<script src="vendor/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+
+$(function () {
+  $('[data-toggle="popover"]').popover();
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
+</script>
 
 <!-- Plugin JavaScript -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
