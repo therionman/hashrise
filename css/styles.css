@@ -46,7 +46,7 @@
    }
 
 .scroll-ball{
-    top: 110px;
+   
 }
 .btn-ball{
     border-radius: 50%;
@@ -56,7 +56,7 @@
     cursor: pointer;
     line-height: 36px;
 }
-.scroll-ball:hover .btn-ball{
+.btn-ball:hover{
   background: #2185C5!important;
   border:3px solid #2185C5;
 
