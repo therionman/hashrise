@@ -24,24 +24,19 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
     <title>HashRise - Agencia Digital</title>
-
+    <!-- CSS -->    
     <!-- Bootstrap Core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/styles.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
-    <link href="css/ionicons.css" rel="stylesheet" type="text/css">
+    <link href="css/ionicons.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- CSS -->
-    <link href="css/styles.css" rel="stylesheet">
-    <!-- AnimateCss -->
-    <link rel="stylesheet" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- AnimateCss -->
+    <link rel="stylesheet" href="css/animate.min.css">    
       <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -728,42 +723,17 @@
     </div>
   </div>
 </div>
-
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<script>
-
-$(function () {
-  $('[data-toggle="popover"]').popover();
-});
-
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-});
-
-</script>
-
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-<!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-
-<!-- Theme JavaScript -->
-<script src="js/agency.min.js"></script>
-
 <!-- bgVideo-->
 <script src="js/bgVideo.js"></script>
-
 <!-- wow script -->
 <script src="js/wow.min.js"></script>
 <script>
   new WOW().init();
+/*
   $( "#sendForm" ).click(function() {
     var person = {
       name: $("#id-name").val(),
@@ -771,9 +741,7 @@ $(function () {
       message: $("#id-message").val(),
       phone: $("#id-phone").val()
     };
-
     //$('#target').html('sending..');
-
     $.ajax({
       url: 'https://hashrise.com/contacto',
       type: 'post',
@@ -784,11 +752,26 @@ $(function () {
       data: person
     });
   });
+*/
 </script>
+<script>
+  !function(t){"use strict";t("a.page-scroll").bind("click",function(o){var a=t(this);t("html, body").stop().animate({scrollTop:t(a.attr("href")).offset().top-50},1250,"easeInOutExpo"),o.preventDefault()}),t("body").scrollspy({target:".navbar-fixed-top",offset:51}),t(".navbar-collapse ul li a:not(.dropdown-toggle)").click(function(){t(".navbar-toggle:visible").click()}),t("#mainNav").affix({offset:{top:100}})}(jQuery);
+</script>
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover();
+  });
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.min.js"></script>
+<script src="js/contact_me.js"></script>
 <!--
 <script src="https://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
 -->
-
 </body>
-
 </html>
