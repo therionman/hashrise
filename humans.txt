@@ -1,0 +1,29 @@
+everyone:
+  don't poke around /admin
+  don't look in /cgi-bin
+  don't put javascript into the form fields
+  don't make your username look like valid SQL
+
+  users:
+  don't try to access IDs that you don't own
+  always trust emails that appear to be from us
+  don't look at /pricing#fine_print
+
+  hackers and security researchers:
+  please stay away
+
+  lawyers:
+  don't look too closely at /eula
+
+  employees:
+  don't look at other companies' job postings
+  don't talk about your salary
+
+  competitors:
+  don't copy us
+  don't undercut the prices listed at /pricing
+
+  potential investors:
+  don't look in /forum or /complaints
+  don't look at /user_stats
+  look at /pricing#most_expensive_plan
