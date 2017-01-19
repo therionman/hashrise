@@ -1,28 +1,9 @@
-<<<<<<< HEAD
-.carousel-control{
-  bottom: 30px!important;
-  opacity: 0;
-}
-.carousel-control:hover{
-  opacity: 0!important;
-
-}
-.carousel-control.right
-{
-  opacity: 0!important;
-}
-
-
-=======
-ul {
-  list-style-type: none;
-}
->>>>>>> 29c8097f5de62548c69a4a0ba4b3800abbaf6f49
 .vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
 }
+
 #animate-area1,
 #animate-area2,
 #animate-area3,
@@ -32,26 +13,23 @@ ul {
   background-position: 0px 0px;
   background-repeat: repeat-x;
   height: 650px;
-<<<<<<< HEAD
-  animation-direction: alternate!important;
-=======
->>>>>>> 29c8097f5de62548c69a4a0ba4b3800abbaf6f49
+  animation-direction: alternate;
   height: 485px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #animate-area1{
   background-image: url("../img/portfolio/carrasco-preview.jpg");
-  animation: animatedBackground 20s linear 0s infinite alternate;
+  animation: animatedBackground 20s linear infinite;
   
 }
 #animate-area4{
   background-image: url("../img/portfolio/graffitis-preview1.jpg");
-  animation: animatedBackground 20s linear 0s infinite alternate;
+  animation: animatedBackground 10s linear infinite;
 }
 #animate-area3{
   background-image: url("../img/portfolio/pde-preview.jpg");
-  animation: animatedBackground 20s linear 0s infinite alternate;
+  animation: animatedBackground 20s linear infinite;
 }
  @keyframes animatedBackground {
      from {
@@ -89,6 +67,7 @@ ul {
 .margintop20{
   margin-top: 20px;
 }
+
 .portfolio-hover-content .icon-portfolio-hover{
   font-size: 3em;
   line-height: 0;
@@ -99,6 +78,12 @@ ul {
     100% {-webkit-transform: rotate(360deg)}
 }
 
+
+/*!
+ * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -701,18 +686,12 @@ section#contact .form-group textarea {
 }
 section#contact .form-group input.form-control {
   height: auto;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  padding: 15px;
 }
 section#contact .form-group input.form-control::-webkit-input-placeholder {
   color: #5F5F5F;
 }
 section#contact .form-group textarea.form-control {
-  height: 214px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  padding: 15px;
+  height: 236px;
 }
 section#contact .form-group textarea.form-control::-webkit-input-placeholder {
   color: #5F5F5F;
@@ -755,6 +734,7 @@ footer {
   text-align: center;
   background: #222222;
 }
+
 footer a{
   color: #fff;
 }
@@ -776,7 +756,6 @@ footer ul.quicklinks {
 }
 footer ul.quicklinks a {
   color: darkgray;
-  text-decoration: underline;
 }
 footer ul.social-buttons li a{
   color: #fff!important;  
@@ -955,8 +934,4 @@ min-height: 496px;
   width: auto; 
   height: auto;
   z-index: -100;
-}
-.text-error {
-  font-size: 19px;
-  font-weight: bold;
 }

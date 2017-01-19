@@ -1,23 +1,6 @@
-<<<<<<< HEAD
-.carousel-control{
-  bottom: 30px!important;
-  opacity: 0;
-}
-.carousel-control:hover{
-  opacity: 0!important;
-
-}
-.carousel-control.right
-{
-  opacity: 0!important;
-}
-
-
-=======
 ul {
   list-style-type: none;
 }
->>>>>>> 29c8097f5de62548c69a4a0ba4b3800abbaf6f49
 .vcenter {
     display: inline-block;
     vertical-align: middle;
@@ -32,10 +15,6 @@ ul {
   background-position: 0px 0px;
   background-repeat: repeat-x;
   height: 650px;
-<<<<<<< HEAD
-  animation-direction: alternate!important;
-=======
->>>>>>> 29c8097f5de62548c69a4a0ba4b3800abbaf6f49
   height: 485px;
   background-size: cover;
   background-repeat: no-repeat;
