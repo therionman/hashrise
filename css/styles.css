@@ -1,3 +1,17 @@
+.carousel-control{
+  bottom: 30px!important;
+  opacity: 0;
+}
+.carousel-control:hover{
+  opacity: 0!important;
+
+}
+.carousel-control.right
+{
+  opacity: 0!important;
+}
+
+
 .vcenter {
     display: inline-block;
     vertical-align: middle;
