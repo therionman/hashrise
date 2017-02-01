@@ -31,7 +31,7 @@ $(function() {
             }
             */
             $.ajax({
-                url: "https://hashrise.com/contacto",
+                url: "http://hashrise.com/",
                 type: "POST",
                 data: person,
                 cache: false,
