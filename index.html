@@ -291,7 +291,7 @@
                           <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
                             <a href="https://uy.linkedin.com/in/guillermo85"><i class="ion-social-linkedin-outline"></i></a>
                           </li>
-                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="guillermo @ hashrise . com">
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="contacto @ hashrise . com">
                             <a><i class="ion-ios-email-outline"></i></a>
                           </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="Skype">
@@ -311,7 +311,7 @@
                           <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
                             <a href="https://uy.linkedin.com/in/gaston-yohane"><i class="ion-social-linkedin-outline"></i></a>
                           </li>
-                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="gaston @ hashrise . com">
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="contacto @ hashrise . com">
                             <a><i class="ion-ios-email-outline"></i></a>
                           </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="Skype">
@@ -327,11 +327,8 @@
                         <hr>
                         <p class="text-muted">HASHRISER<br /> Frontend Developer & Security Tester</p>
                         <hr>
-                        <ul class="list-inline social-buttons border-social-group">
-                          <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
-                            <a href="#"><i class="ion-social-linkedin-outline"></i></a>
-                          </li>
-                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="lucas @ hashrise . com">
+                        <ul class="list-inline social-buttons border-social-group">                          
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="contacto @ hashrise . com">
                             <a><i class="ion-ios-email-outline"></i></a>
                           </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="Skype">
@@ -347,11 +344,8 @@
                         <hr>
                         <p class="text-muted">HASHRISER<br /> Software Architect</p>
                         <hr>
-                        <ul class="list-inline social-buttons border-social-group">
-                          <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
-                            <a href="#"><i class="ion-social-linkedin-outline"></i></a>
-                          </li>
-                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="gabriel @ hashrise . com">
+                        <ul class="list-inline social-buttons border-social-group">                          
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="contacto @ hashrise . com">
                             <a><i class="ion-ios-email-outline"></i></a>
                           </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="Skype">
@@ -367,16 +361,10 @@
                         <hr>
                         <p class="text-muted">HASHRISER<br/>Sales & Project Manager</p>
                         <hr>
-                        <ul class="list-inline social-buttons border-social-group">
-                          <li data-toggle="tooltip" data-placement="bottom" title="LinkedIN">
-                            <a href="#"><i class="ion-social-linkedin-outline"></i></a>
-                          </li>
-                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="jp @ hashrise . com">
+                        <ul class="list-inline social-buttons border-social-group">                          
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="contacto @ hashrise . com">
                             <a><i class="ion-ios-email-outline"></i></a>
-                          </li>
-                          <li data-toggle="tooltip" data-placement="bottom" title="Skype">
-                            <a href="#"><i class="ion-social-skype-outline" ></i></a>
-                          </li>
+                          </li>                          
                         </ul>
                       </div>
                     </div>
@@ -391,47 +379,7 @@
 
       -->
     </section>
-
-<!-- Clients Aside 
-<aside class="clients">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 social-buttons text-center">
-                <a href="#">
-                    <i class="ion-social-github-outline"></i>
-                </a>
-            </div>
-            <div class="col-md-2 social-buttons text-center">
-                <a href="#">
-                    <i class="ion-social-html5-outline"></i>
-                </a>
-            </div>
-            <div class="col-md-2 social-buttons text-center">
-                <a href="#">
-                    <i class="ion-social-css3-outline"></i>
-                </a>
-            </div>
-            <div class="col-md-2 social-buttons text-center">
-                <a href="#">
-                    <i class="ion-social-javascript-outline"></i>
-                </a>
-            </div>
-            <div class="col-md-2 social-buttons text-center">
-                <a href="#">
-                    <i class="ion-social-angular-outline"></i>
-                </a>
-            </div>
-            <div class="col-md-2 social-buttons text-center">
-                <a href="#">
-                    <i class="ion-social-nodejs"></i>
-                </a>
-            </div>
-            
-        </div>
-    </div>
-</aside>
- -->
-               
+              
 <!-- Contact Section -->
 <section id="contact">
   <div class="container">
@@ -443,15 +391,15 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form name="sentMessage" id="contactForm" action="https://formspree.io/contacto@hashrise.com" method="POST">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Nombre *" id="id-name" required data-validation-required-message="Por  favor ingrese su nombre">
+                <input type="text" class="form-control" name="name" placeholder="Nombre *" id="id-name" required data-validation-required-message="Por  favor ingrese su nombre">
                 <p class="help-block text-danger text-error"></p>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="E-mail *" id="id-mail" required data-validation-required-message="Por favor ingrese una dirección de correo">
+                <input type="email" class="form-control" name="_replyto" placeholder="E-mail *" id="id-mail" required data-validation-required-message="Por favor ingrese una dirección de correo">
                 <p class="help-block text-danger text-error"></p>
               </div>
               <div class="form-group">
@@ -468,7 +416,7 @@
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center margintop20">
               <div id="success"></div>
-              <button id="sendForm" type="submit" class="btn btn-xl">Enviar Mensaje</button>
+              <button id="sendForm" type="submit" value="Send" class="btn btn-xl">Enviar Mensaje</button>
             </div>
           </div>
         </form>
@@ -824,26 +772,6 @@
 <script src="js/wow.min.js"></script>
 <script>
   new WOW().init();
-/*
-  $( "#sendForm" ).click(function() {
-    var person = {
-      name: $("#id-name").val(),
-      mail: $("#id-mail").val(),
-      message: $("#id-message").val(),
-      phone: $("#id-phone").val()
-    };
-    //$('#target').html('sending..');
-    $.ajax({
-      url: 'https://hashrise.com/contacto',
-      type: 'post',
-      dataType: 'json',
-      success: function (data) {
-        $('#target').html(data.msg);
-      },
-      data: person
-    });
-  });
-*/
 </script>
 <script>
   !function(t){"use strict";t("a.page-scroll").bind("click",function(o){var a=t(this);t("html, body").stop().animate({scrollTop:t(a.attr("href")).offset().top-50},1250,"easeInOutExpo"),o.preventDefault()}),t("body").scrollspy({target:".navbar-fixed-top",offset:51}),t(".navbar-collapse ul li a:not(.dropdown-toggle)").click(function(){t(".navbar-toggle:visible").click()}),t("#mainNav").affix({offset:{top:100}})}(jQuery);
